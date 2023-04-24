@@ -38,7 +38,7 @@ JMeter
 https://jmeter.apache.org/download_jmeter.cgi
 
 
-## We use BlazeMeter to generate JMX files
+## Using BlazeMeter to generate JMX files
 https://chrome.google.com/webstore/detail/blazemeter-the-continuous/mbopgmdnpcbohhpnfglgohlbhfongabi?hl=en
 
 # Prerequisites
