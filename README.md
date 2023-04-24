@@ -15,6 +15,18 @@
 - Make html File
 - HTML Report
 
+# Load testing Report
+
+| Concurrent Request  | Loop Count | Avg TPS for Total Samples  | Error Rate | Total Concurrent API request |
+|               :---: |      :---: |                      :---: |                        :---: |      :---: |
+| 290 | 1 |  10 | 47%     | 72474  |
+| 350 | 1 |  10 | 59%     | 89600  |
+| 375 | 1 |  10 | 1.41%   | 96000  |
+
+# Summary
+- While executed 350 concurrent request, found 530 request got connection timeout and error rate is 0.59%.
+- Server can handle almost concurrent 89600 API call with almost less than 1% error rate.
+
 # Introduction
 This document explains how to run a performance test with JMeter against an OpenCart E-commerce Site.
 
@@ -68,7 +80,23 @@ https://chrome.google.com/webstore/detail/blazemeter-the-continuous/mbopgmdnpcbo
 - provide thread and ramp up period
 - The Test Plan will be loaded
 
+![jmeter](https://user-images.githubusercontent.com/44814788/233927871-b302d077-03ab-4feb-96b9-28ff79308634.JPG)
+
+
 # Test execution (from the Terminal)
 - JMeter should be initialized in non-GUI mode.
 - Make a report folder in the bin folder.
 - Run Command in jmeter\bin folder.
+
+# Make jtl file from jmx file
+  command : jmeter -n -t Prostate-cancer-uk400.jmx -l Report\prostatecancerT375.j
+  
+  ![341178877_1026838331630852_5234187232119471700_n](https://user-images.githubusercontent.com/44814788/233928865-b17e9220-8df8-4346-8224-614d9b675d00.png)
+  
+  # Make html Report file
+  command : jmeter -g Report\prostatecancerT375.jtl -o Report\prostatecancerT375.html
+  
+  ![html](https://user-images.githubusercontent.com/44814788/233930014-150581ef-9008-4de8-916e-a4c0025009bd.JPG)
+  
+
+  
