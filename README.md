@@ -98,5 +98,7 @@ https://chrome.google.com/webstore/detail/blazemeter-the-continuous/mbopgmdnpcbo
   
   ![html](https://user-images.githubusercontent.com/44814788/233930014-150581ef-9008-4de8-916e-a4c0025009bd.JPG)
   
-
+  # HTML Report
   
+  ![report](https://user-images.githubusercontent.com/44814788/233930788-7594d4c0-14de-4bb9-ba57-ded5a22e7fb1.JPG)
+
