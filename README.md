@@ -19,8 +19,8 @@
 
 | Concurrent Request  | Loop Count | Avg TPS for Total Samples  | Error Rate | Total Concurrent API request |
 |               :---: |      :---: |                      :---: |                        :---: |      :---: |
-| 290 | 1 |  10 | 47%     | 72474  |
-| 350 | 1 |  10 | 59%     | 89600  |
+| 290 | 1 |  10 | .47%    | 72474  |
+| 350 | 1 |  10 | .59%    | 89600  |
 | 375 | 1 |  10 | 1.41%   | 96000  |
 
 # Summary
